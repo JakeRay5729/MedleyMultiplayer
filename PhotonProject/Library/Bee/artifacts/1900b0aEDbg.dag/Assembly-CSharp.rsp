@@ -416,11 +416,16 @@
 "Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/RemoteSpeakerUI.cs"
 "Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/SidebarToggle.cs"
 "Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/UiExtensions.cs"
+"Assets/Scripts/Bullet.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Launcher.cs"
+"Assets/Scripts/MoveCam.cs"
 "Assets/Scripts/PlayerAnimatorManager.cs"
+"Assets/Scripts/PlayerCam.cs"
 "Assets/Scripts/PlayerManager.cs"
+"Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/PlayerNameInputField.cs"
+"Assets/Scripts/ProjectileGun.cs"
 -langversion:9.0
 
 /deterministic

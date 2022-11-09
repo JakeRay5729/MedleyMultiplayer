@@ -93,7 +93,7 @@ public class ProjectileGun : MonoBehaviourPunCallbacks, IPunObservable
 
         Vector3 directionWithSpread = directionWithoutSpread + new Vector3(x, y, 0);
 
-        GameObject currentBullet = Instantiate(bullet, attackPoint.position, Quaternion.identity);
+        GameObject currentBullet = PhotonNetwork.Instantiate("Bullet", attackPoint.position, Quaternion.identity);
 
         currentBullet.transform.forward = directionWithSpread.normalized;
 
